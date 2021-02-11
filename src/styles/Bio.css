@@ -1,0 +1,26 @@
+.bio{
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+.bio__container{
+    margin-top: 20%;
+    background-color: lightgray;
+    opacity: 95%;
+    width: 23vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+}
+.text{
+    font-size: 16px;
+    font-weight: initial;
+    color: #393c41;
+    align-items: left;
+    flex: 1;
+}
