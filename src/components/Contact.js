@@ -1,7 +1,8 @@
 import React from 'react';
 import Header from './Header';
-import Item from './Item';
+import ContactForm from './ContactForm';
 import Building from '../assets/w_w.jpg'
+
 
 const Contact = () => {
     return (
@@ -13,11 +14,10 @@ const Contact = () => {
             rightBtnLink='/about'
             twoButtons='true'
             />
-            <Item 
-            title='Contact Us!'
-            desc='Email either Philippe or Simone at source.eausolaire@gmail.com'
+            <ContactForm 
             backgroundImg= {Building}
             />
+            
         </div>
     )
 }

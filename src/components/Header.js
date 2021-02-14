@@ -8,8 +8,8 @@ const Header = ({ leftBtnTxt, leftBtnLink, rightBtnTxt, rightBtnLink, twoButtons
     return (
         <div className='header'>
             <div className="header__logos">
-                <img src={OurLogo} alt='Our Logo'/>
                 <img src={TwoLogo} alt='TwoLogo'/>
+                <img src={OurLogo} alt='Our Logo'/>
             </div>
             <div className="header__right">
             <Button imp='primary' text={leftBtnTxt} link={leftBtnLink} />
