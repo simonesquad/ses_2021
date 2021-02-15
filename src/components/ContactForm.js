@@ -7,7 +7,7 @@ export default function ContactForm({backgroundImg}) {
     function sendEmail(e) {
         e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_r0p03qt', e.target, 'user_jMWnlaeLAc6VuXUX6i7eh')
+    emailjs.sendForm('service_j1pvyfg', 'template_r0p03qt', e.target, 'user_jMWnlaeLAc6VuXUX6i7eh')
       .then((result) => {
           console.log(result.text);
       }, (error) => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import ContactForm from './ContactForm';
-import Building from '../assets/w_w.jpg'
+import Horizon from '../assets/sunset.jpg'
 
 
 const Contact = () => {
@@ -15,7 +15,7 @@ const Contact = () => {
             twoButtons='true'
             />
             <ContactForm 
-            backgroundImg= {Building}
+            backgroundImg= {Horizon}
             />
             
         </div>

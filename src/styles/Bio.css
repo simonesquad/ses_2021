@@ -9,18 +9,19 @@
     scroll-snap-align: start;
 }
 .bio__container{
-    margin-top: 20%;
-    background-color: lightgray;
-    opacity: 95%;
-    width: 23vw;
+    margin-top: 15%;
+    background: rgba(0,0,0,.5);
+    width: 24vw;
     height: 50vh;
+    padding: 30px;
     display: flex;
     flex-direction: row;
 }
 .text{
+    padding: 2% 3%;
     font-size: 16px;
     font-weight: initial;
-    color: #393c41;
+    color: white;
     align-items: left;
     flex: 1;
 }
