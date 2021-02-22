@@ -9,19 +9,39 @@
     scroll-snap-align: start;
 }
 .bio__container{
-    margin-top: 15%;
-    background: rgba(0,0,0,.5);
+    margin-top: 17%;
+    background: rgba(0,0,0,.5); 
     width: 24vw;
     height: 50vh;
-    padding: 30px;
+    padding: 4vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    color: white;
 }
-.text{
-    padding: 2% 3%;
-    font-size: 16px;
-    font-weight: initial;
+.picture{
+    width: 22vw;
+    height: 25vh;
+}
+.text-name{
+    display: flex; 
+    color: lightblue;
+}
+.text>a{
+    padding: 1% 1%;
+    align-items: left;
+    font-size: large;
+    flex: 1;
+    font-size: 2vw;
+    font-weight: bold;
+    color: white;
+}
+.text>p{
+    font-size: 1.3vw;
+    /* font-weight: initial; */
     color: white;
     align-items: left;
-    flex: 1;
+    /* flex: 1; */
+}
+* {
+    max-width: 100%;
 }

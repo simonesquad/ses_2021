@@ -3,3 +3,9 @@
     overflow: auto;
     height: 100vh;
 }
+
+@media screen and (max-width: 736px) {
+.bio{
+    font-size: 1.75rem;
+}
+}

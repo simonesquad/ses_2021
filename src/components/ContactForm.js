@@ -36,7 +36,7 @@ export default function ContactForm({backgroundImg}) {
                     <div className="col-8 form-group mx-auto">
                         <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message here" name="message"></textarea>
                     </div>
-                    <div className="col-8 pt-3 mx-auto">
+                    <div className="col-8 pt-2 mx-auto">
                         <input type="submit" className="btn btn-info" value="Contact Us"></input>
                         </div>
                     </div>
