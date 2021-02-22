@@ -1,0 +1,18 @@
+.button{
+    background-color: white;
+    height: 24px;
+    width: 130px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+}
+
+.button>a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.button>a:hover{
+    color: orange;
+}
