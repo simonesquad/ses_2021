@@ -1,7 +1,8 @@
 import React from 'react'
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import '../styles/Bio.css'
 
-const Bio = ({name, profileImg, text, backgroundImg}) => {
+const Bio = ({name, linkedin, profileImg, text, backgroundImg}) => {
     return (
         <div className='bio' style={{
             backgroundImage: `url(${backgroundImg})`
@@ -13,7 +14,8 @@ const Bio = ({name, profileImg, text, backgroundImg}) => {
         </div>
         <div className="bio__container">
             <div className="text">
-            <h3>{name}</h3>
+            <a href={linkedin}>{name}</a>
+            <LinkedInIcon />
             <p>{text}</p>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import ContactForm from './ContactForm';
 import Horizon from '../assets/sunset.jpg'
 
@@ -14,6 +15,7 @@ const Contact = () => {
             rightBtnLink='/about'
             twoButtons='true'
             />
+            <Footer />
             <ContactForm 
             backgroundImg= {Horizon}
             />
