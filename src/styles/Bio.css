@@ -29,14 +29,13 @@
 .text>a{
     padding: 1% 1%;
     align-items: left;
-    font-size: large;
     flex: 1;
     font-size: 2vw;
     font-weight: bold;
     color: white;
 }
 .text>p{
-    font-size: 1.3vw;
+    font-size: 1.27vw;
     /* font-weight: initial; */
     color: white;
     align-items: left;
