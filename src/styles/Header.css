@@ -1,9 +1,8 @@
 .header{
     display: flex;
     background-color: white;
-    opacity: 62%;
     width: 100%;
-    height: 15vh;
+    height: 13vh;
     font-size: 1vw;
     position: absolute;
     top: 1;
