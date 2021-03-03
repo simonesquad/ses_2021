@@ -11,8 +11,6 @@ const Bio = ({name, linkedin, profileImg, text, backgroundImg}) => {
             <div className="picture">
             <img src={profileImg} alt="profile"/>
             </div>
-        </div>
-        <div className="bio__container">
             <div className="text">
             <a href={linkedin}>{name}</a>
             <LinkedInIcon />
