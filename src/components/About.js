@@ -24,14 +24,14 @@ const About = () => {
             name='Philippe Thevenin'
             linkedin='https://www.linkedin.com/in/philippemthevenin/'
             profileImg={Philippe}
-            text=' wants to apply his industrial engineering background to projects with impact worldwide. His specifc interests include projects that combine solar energy and freshwater generation, towards a circular no-waste economy. Likewise, he is interested in accelerating the uptake of sustainable housing initiatives in areas where the housing pressure is high. Having traveled extensively and pursued onsite trainings in the UAE, Canada, and Mexico, he is ready to drive further technology applications to communities in need.'
+            text='As a proven and resilient project leader, I aim to apply my diverse industrial engineering background to projects with impact worldwide. In early 2019 I secured a technology partnership with the innovative solar panel company Source Global PBC. Since then I have been steadily building a network with promising technology providers and community leaders, with particular interest towards applications in the UAE, EU, Canada, the U.S., and Mexico. At SES we are initially focused on ventures that combine solar energy with freshwater generation, as well as accelerating sustainable housing adoption. We look forward to working with you and please get in touch.'
             backgroundImg={Wave}
             />
             <Bio
             name='Simone Ballard'
             linkedin='https://www.linkedin.com/in/simoneaballard'
             profileImg={Simone}
-            text='teamed up with Philippe over their shared passion for emerging technology in the environmental sector. With an environmental education from both the U.S. and the Netherlands, and experience working on a variety of interdisciplinary startup initiatives, she wanted to find a vehicle for driving innovation further. Bringing her industry tested communications skills and eye for emergent tech challenges and opportunities to the table, she is ready to assist in precision project development towards higher impact.'
+            text='As an environmental science advocate and experienced researcher with an established background from both the U.S. and the Netherlands, I wanted to find an agile platform for driving innovative technology adoption further. I met Philippe in 2019 via mutual connections in the environmental sector and our shared passion for emerging sustainable tech. We shared the vision immediately for combining our expertise to match technologies within communities towards impact. With my industry tested communication skills and an ability to identify promising tech, I am ready for precision project development towards higher impact. We look forward to working with you.'
             backgroundImg={Wave}
             />
             
