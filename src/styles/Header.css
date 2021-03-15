@@ -26,8 +26,16 @@
     max-width: 100%;
 }
 
-@media screen and (max-width: 736px) {
+@media only screen
+
+  and (min-device-width: 375px)
+
+  and (orientation: portrait) {
 .header{
     width: 100%;
+}
+.header__logo{
+    height: 5vh;
+    width: 80vw;
 }
 }
