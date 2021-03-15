@@ -20,18 +20,18 @@ const HomePage = () => {
         <Footer />
         <div className="itemsContainer">
         <Item
-        title=''
+        title='Welcome to SES... where we aim to connect'
         desc=''
         backgroundImg={Solar}
         />
        <Item
         title=''
-        desc=''
+        desc='leading sustainable tech with communities most in need'
         backgroundImg={Water}
         />
        <Item
         title=''
-        desc=''
+        desc='our mission is global...will you join us?'
         backgroundImg= {Container}
         /> 
         </div>

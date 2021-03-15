@@ -2,7 +2,8 @@
     display: flex;
     background-color: white;
     width: 100%;
-    height: 13vh;
+    height: 17vh;
+    /* opacity: 72%; */
     font-size: 1vw;
     position: absolute;
     top: 1;
@@ -25,8 +26,16 @@
     max-width: 100%;
 }
 
-@media screen and (max-width: 736px) {
+@media only screen
+
+  and (min-device-width: 375px)
+
+  and (orientation: portrait) {
 .header{
     width: 100%;
+}
+.header__logo{
+    height: 5vh;
+    width: 80vw;
 }
 }
