@@ -15,7 +15,8 @@ const Bio = ({name, linkedin, profileImg, role, text, backgroundImg}) => {
                 <div className="title">
                 <h2>{name}</h2>
                 <a href={linkedin}>
-                <LinkedInIcon/>
+                <LinkedInIcon
+                    color="white"/>
                 </a>
                 </div>
             <h4>{role}</h4>
