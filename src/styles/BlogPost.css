@@ -1,4 +1,4 @@
-.bio{
+.post{
     height: 100vh;
     width: 100vw;
     background-position: center;
@@ -8,20 +8,22 @@
     justify-content: center;
     scroll-snap-align: start;
 }
-.bio__container{
+.post__container{
     margin-top: 12%;
     background: rgba(0,0,0,.5); 
     border-radius: 10px;
-    width: 50vw;
-    height: 50vh;
-    padding: 6vw;
+    width: 38vw;
+    height: 35vh;
+    padding: 5.5vw;
     display: flex;
     flex-direction: row;
     color: white;
 }
 .picture{
-    width: 22vw;
+    width: 18vw;
     height: 25vh;
+    margin-right: 15%;
+    border-radius: 20%;
 }
 .text{
     width: 27vw;
@@ -51,7 +53,7 @@
 
   and (orientation: portrait) {
     
-.bio__container{
+.post__container{
     display: flex;
     flex-direction: row;
     justify-content: center;

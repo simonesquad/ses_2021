@@ -11,11 +11,12 @@ const HomePage = () => {
     return (
         <div className="homePage">
         <Header 
-        leftBtnTxt='About'
-        leftBtnLink='/about'
+        leftBtnTxt='Team'
+        leftBtnLink='/team'
+        midBtnTxt='Blog'
+        midBtnLink='/blog'
         rightBtnTxt='Contact'
         rightBtnLink='/contact'
-        twoButtons='true'
         />
         <Footer />
         <div className="itemsContainer">

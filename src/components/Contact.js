@@ -11,9 +11,10 @@ const Contact = () => {
             <Header
             leftBtnTxt='Home'
             leftBtnLink='/'
-            rightBtnTxt='About'
-            rightBtnLink='/about'
-            twoButtons='true'
+            midBtnTxt='Team'
+            midBtnLink='/team'
+            rightBtnTxt='Blog'
+            rightBtnLink='/blog'
             />
             <Footer />
             <ContactForm 
