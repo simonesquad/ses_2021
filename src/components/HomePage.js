@@ -13,9 +13,10 @@ const HomePage = () => {
         <Header 
         leftBtnTxt='Team'
         leftBtnLink='/team'
+        midBtnTxt='Blog'
+        midBtnLink='/blog'
         rightBtnTxt='Contact'
         rightBtnLink='/contact'
-        twoButtons='true'
         />
         <Footer />
         <div className="itemsContainer">

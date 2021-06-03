@@ -8,9 +8,10 @@ const Blog = () => {
             <Header 
             leftBtnTxt='Home'
             leftBtnLink='/'
-            rightBtnTxt='Team'
-            rightBtnLink='/team'
-            twoButtons='true'
+            midBtnTxt='Team'
+            midBtnLink='/team'
+            rightBtnTxt='Contact'
+            rightBtnLink='/contact'
             />
             <Footer />
         </div>
