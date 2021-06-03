@@ -25,23 +25,19 @@
 }
 .text{
     width: 27vw;
-    height: 25vh;
+    height: 30vh;
     justify-content: center;
-    padding: 0% 5%;
+    padding: 0% 0%;
 }
-.text-name{
-    display: flex; 
-    color: lightblue;
+.title{
+    display: flex;
+    margin-bottom: 2%;
 }
-.text>a{
-    padding: 1% 1%;
-    flex: 1;
-    font-size: 2vw;
-    font-weight: bold;
-    color: white;
+.text>h4{
+    margin-bottom: 2%;
 }
 .text>p{
-    font-size: 1.23vw;
+    font-size: 1.2vw;
     color: white;
     align-items: left;
 }
