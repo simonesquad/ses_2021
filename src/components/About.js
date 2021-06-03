@@ -15,9 +15,10 @@ const About = () => {
              <Header 
             leftBtnTxt='Home'
             leftBtnLink='/'
+            midBtnTxt='Blog'
+            midBtnLink='/blog'
             rightBtnTxt='Contact'
             rightBtnLink='/contact'
-            twoButtons='true'
             />
             <Footer />
             <Bio 

@@ -4,7 +4,7 @@ import OurLogo from '../assets/SES_Text_Trans.png';
 import '../styles/Header.css';
 
 
-const Header = ({ leftBtnTxt, leftBtnLink, rightBtnTxt, rightBtnLink, twoButtons }) => {
+const Header = ({ leftBtnTxt, leftBtnLink, midBtnTxt, midBtnLink, rightBtnTxt, rightBtnLink }) => {
     return (
         <div className='header'>
             <div className="header__logo">
@@ -12,9 +12,8 @@ const Header = ({ leftBtnTxt, leftBtnLink, rightBtnTxt, rightBtnLink, twoButtons
             </div>
             <div className="header__right">
             <Button imp='primary' text={leftBtnTxt} link={leftBtnLink} />
-                {twoButtons && (
-            <Button imp='secondary' text={rightBtnTxt} link={rightBtnLink} />
-                )}
+            <Button imp='secondary' text={midBtnTxt} link={midBtnLink} />
+            <Button imp='tertiary' text={rightBtnTxt} link={rightBtnLink} />
             </div>
         </div>
     )
