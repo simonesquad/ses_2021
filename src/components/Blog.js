@@ -11,7 +11,7 @@ const Blog = () => {
             <Header 
             leftBtnTxt='Home'
             leftBtnLink='/'
-            midBtnTxt='Team'
+            midBtnTxt='About'
             midBtnLink='/team'
             rightBtnTxt='Contact'
             rightBtnLink='/contact'
