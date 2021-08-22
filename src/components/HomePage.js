@@ -11,8 +11,8 @@ const HomePage = () => {
     return (
         <div className="homePage">
         <Header 
-        leftBtnTxt='Team'
-        leftBtnLink='/team'
+        leftBtnTxt='About'
+        leftBtnLink='/about'
         midBtnTxt='Blog'
         midBtnLink='/blog'
         rightBtnTxt='Contact'

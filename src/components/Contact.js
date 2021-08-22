@@ -11,8 +11,8 @@ const Contact = () => {
             <Header
             leftBtnTxt='Home'
             leftBtnLink='/'
-            midBtnTxt='Team'
-            midBtnLink='/team'
+            midBtnTxt='About'
+            midBtnLink='/about'
             rightBtnTxt='Blog'
             rightBtnLink='/blog'
             />
